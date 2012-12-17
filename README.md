@@ -1,4 +1,4 @@
-theme-zip
+Theme packaging script
 =========
 
 This script assumes:
