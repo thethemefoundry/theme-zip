@@ -13,6 +13,7 @@ To use this script:
 2. Update the values for the ruby path, output_dir and themes_dir to match your local setup.
 3. `cd` into the folder containing `theme_package.rb` and run:
 
+
     ./theme_package.rb anthem react_pro linen_pro
 
 Find a nicely-named ZIP file in the output folder you specified in step 2 and enjoy!
