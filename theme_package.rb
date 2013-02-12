@@ -1,4 +1,4 @@
-#!/Users/andy/.rvm/rubies/ruby-1.9.3-p0/bin/ruby
+#!/Users/tollmanz/.rvm/rubies/ruby-1.9.3-p327/bin/ruby
 
 # Change path above to your ruby path ('which ruby')
 
@@ -24,8 +24,8 @@ def write_erb(erb_file)
   FileUtils.rm(erb_file)
 end
 
-output_dir = File.expand_path('~/temp/theme_packages')
-themes_dir = File.expand_path('~/repos/themes')
+output_dir = File.expand_path('~/theme_packages')
+themes_dir = File.expand_path('~/forge')
 
 # Iterate through all command-line args
 ARGV.each do |theme_path|
